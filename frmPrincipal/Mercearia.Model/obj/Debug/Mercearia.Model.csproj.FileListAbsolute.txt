@@ -1,0 +1,6 @@
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\Mercearia.Model\bin\Debug\Mercearia.Model.dll.config
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\Mercearia.Model\bin\Debug\Mercearia.Model.dll
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\Mercearia.Model\bin\Debug\Mercearia.Model.pdb
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\Mercearia.Model\obj\Debug\Mercearia.Model.csprojResolveAssemblyReference.cache
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\Mercearia.Model\obj\Debug\Mercearia.Model.dll
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\Mercearia.Model\obj\Debug\Mercearia.Model.pdb

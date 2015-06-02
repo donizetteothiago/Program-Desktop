@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="bdMercearia" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=XABLAUPC;Initial Catalog=bdMercearia;User ID=SA" SettingsObjectName="Mercearia.Model.Properties.Settings" SettingsPropertyName="bdMerceariaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Fornecedor" Member="Fornecedors">
+    <Type Name="Fornecedor">
+      <Column Name="Cod_fornecedor" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="CNPJ" Type="System.String" DbType="Char(14) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Insc_estadual" Type="System.String" DbType="Char(12) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Nome_fantasia" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Tel_fixo" Type="System.String" DbType="Char(11) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Tel_celular" Type="System.String" DbType="Char(11) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Logradouro" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Bairro" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Cidade" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="UF" Type="System.String" DbType="Char(2)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="CEP" Type="System.String" DbType="Char(8)" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Fornecedor_Lote" Member="Lotes" ThisKey="Cod_fornecedor" OtherKey="Cod_fornecedor" Type="Lote" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Itens_nota" Member="Itens_notas">
+    <Type Name="Itens_nota">
+      <Column Name="Cod_nota" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Cod_venda" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="Itens_venda_Itens_nota" Member="Itens_venda" ThisKey="Cod_venda" OtherKey="Cod_venda" Type="Itens_venda" IsForeignKey="true" />
+      <Association Name="Nota_fiscal_Itens_nota" Member="Nota_fiscal" ThisKey="Cod_nota" OtherKey="Cod_nota" Type="Nota_fiscal" IsForeignKey="true" />
+      <Association Name="Nota_fiscal_Itens_nota1" Member="Nota_fiscal1" ThisKey="Cod_nota" OtherKey="Cod_nota" Type="Nota_fiscal" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Itens_venda" Member="Itens_vendas">
+    <Type Name="Itens_venda">
+      <Column Name="Cod_venda" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Cod_produto" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Quantidade" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Valor_venda" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Valor_total_produto" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="Itens_venda_Itens_nota" Member="Itens_notas" ThisKey="Cod_venda" OtherKey="Cod_venda" Type="Itens_nota" />
+      <Association Name="Produto_Itens_venda" Member="Produto" ThisKey="Cod_produto" OtherKey="Cod_produto" Type="Produto" IsForeignKey="true" />
+      <Association Name="Venda_Itens_venda" Member="Venda" ThisKey="Cod_venda" OtherKey="Cod_venda" Type="Venda" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Lote" Member="Lotes">
+    <Type Name="Lote">
+      <Column Name="Cod_lote" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Cod_fornecedor" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Data_entrada" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Valor_total_lote" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Prazo_validade" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Quantidade" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Cod_tipo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="Lote_Produto" Member="Produtos" ThisKey="Cod_lote" OtherKey="Cod_lote" Type="Produto" />
+      <Association Name="Fornecedor_Lote" Member="Fornecedor" ThisKey="Cod_fornecedor" OtherKey="Cod_fornecedor" Type="Fornecedor" IsForeignKey="true" />
+      <Association Name="Tipo_produto_Lote" Member="Tipo_produto" ThisKey="Cod_tipo" OtherKey="Cod_tipo" Type="Tipo_produto" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Nota_fiscal" Member="Nota_fiscals">
+    <Type Name="Nota_fiscal">
+      <Column Name="Cod_nota" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Data_emissão_nota" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Cod_venda" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="Nota_fiscal_Itens_nota" Member="Itens_notas" ThisKey="Cod_nota" OtherKey="Cod_nota" Type="Itens_nota" />
+      <Association Name="Nota_fiscal_Itens_nota1" Member="Itens_notas1" ThisKey="Cod_nota" OtherKey="Cod_nota" Type="Itens_nota" />
+      <Association Name="Venda_Nota_fiscal" Member="Venda" ThisKey="Cod_venda" OtherKey="Cod_venda" Type="Venda" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Operador" Member="Operadors">
+    <Type Name="Operador">
+      <Column Name="Cod_op" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Cargo" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Telefone_celular" Type="System.String" DbType="Char(11) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Data_nascimento" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Data_admissão" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="CPF" Type="System.String" DbType="Char(11) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Loguin" Type="System.String" DbType="Char(11) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Senha" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Logradouro" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Bairro" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Cidade" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="UF" Type="System.String" DbType="Char(2)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="CEP" Type="System.String" DbType="Char(8)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Telefone_fixo" Type="System.String" DbType="Char(11)" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Operador_Venda" Member="Vendas" ThisKey="Cod_op" OtherKey="Cod_op" Type="Venda" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Produto" Member="Produtos">
+    <Type Name="Produto">
+      <Column Name="Cod_produto" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Data_entrada" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Peso" Type="System.String" DbType="Char(5)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Valor_compra" Type="System.Decimal" DbType="Money" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Valor_venda" Type="System.Decimal" DbType="Money" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Cod_tipo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Cod_lote" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="Produto_Itens_venda" Member="Itens_vendas" ThisKey="Cod_produto" OtherKey="Cod_produto" Type="Itens_venda" />
+      <Association Name="Lote_Produto" Member="Lote" ThisKey="Cod_lote" OtherKey="Cod_lote" Type="Lote" IsForeignKey="true" />
+      <Association Name="Tipo_produto_Produto" Member="Tipo_produto" ThisKey="Cod_tipo" OtherKey="Cod_tipo" Type="Tipo_produto" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tipo_produto" Member="Tipo_produtos">
+    <Type Name="Tipo_produto">
+      <Column Name="Cod_tipo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Descrição" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Tipo_produto_Lote" Member="Lotes" ThisKey="Cod_tipo" OtherKey="Cod_tipo" Type="Lote" />
+      <Association Name="Tipo_produto_Produto" Member="Produtos" ThisKey="Cod_tipo" OtherKey="Cod_tipo" Type="Produto" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Venda" Member="Vendas">
+    <Type Name="Venda">
+      <Column Name="Cod_venda" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Cod_op" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Data_venda" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Valor_total_venda" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="Venda_Itens_venda" Member="Itens_venda" ThisKey="Cod_venda" OtherKey="Cod_venda" Type="Itens_venda" Cardinality="One" />
+      <Association Name="Venda_Nota_fiscal" Member="Nota_fiscals" ThisKey="Cod_venda" OtherKey="Cod_venda" Type="Nota_fiscal" />
+      <Association Name="Operador_Venda" Member="Operador" ThisKey="Cod_op" OtherKey="Cod_op" Type="Operador" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

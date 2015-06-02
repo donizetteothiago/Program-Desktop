@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercearia", "frmPrincipal\Mercearia.csproj", "{2CDB34BA-53B9-4B49-AF05-A02AA4A59168}"
+	ProjectSection(ProjectDependencies) = postProject
+		{09EED507-1F54-4466-BB74-5DCD627A2345} = {09EED507-1F54-4466-BB74-5DCD627A2345}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2EAEF88D-6D0A-4205-AD9C-F2078DABF00C}"
+	ProjectSection(SolutionItems) = preProject
+		..\1\Cadastro de Produtos\Cadastro de Produtos.sln = ..\1\Cadastro de Produtos\Cadastro de Produtos.sln
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercearia.Model", "Mercearia.Model\Mercearia.Model.csproj", "{137623F9-25AC-4734-B8A4-6BABE580354C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercearia.control", "Mercearia.control\Mercearia.control.csproj", "{09EED507-1F54-4466-BB74-5DCD627A2345}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CDB34BA-53B9-4B49-AF05-A02AA4A59168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDB34BA-53B9-4B49-AF05-A02AA4A59168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDB34BA-53B9-4B49-AF05-A02AA4A59168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDB34BA-53B9-4B49-AF05-A02AA4A59168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{137623F9-25AC-4734-B8A4-6BABE580354C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137623F9-25AC-4734-B8A4-6BABE580354C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137623F9-25AC-4734-B8A4-6BABE580354C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137623F9-25AC-4734-B8A4-6BABE580354C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09EED507-1F54-4466-BB74-5DCD627A2345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09EED507-1F54-4466-BB74-5DCD627A2345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09EED507-1F54-4466-BB74-5DCD627A2345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09EED507-1F54-4466-BB74-5DCD627A2345}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

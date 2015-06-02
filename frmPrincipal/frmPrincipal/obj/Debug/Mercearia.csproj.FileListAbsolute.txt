@@ -1,0 +1,36 @@
+E:\Nova pasta\frmPrincipal\frmPrincipal\bin\Debug\frmPrincipal.exe.config
+E:\Nova pasta\frmPrincipal\frmPrincipal\bin\Debug\frmPrincipal.exe
+E:\Nova pasta\frmPrincipal\frmPrincipal\bin\Debug\frmPrincipal.pdb
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\Mercearia.csprojResolveAssemblyReference.cache
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmEmitirNota.resources
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmFornecedor.resources
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmlogin.resources
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmOperador.resources
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.btnVenda.resources
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmMenuRelatorio.resources
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmProdutos.resources
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmRelatoriosTela.resources
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmTipoProduto.resources
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmVenda.resources
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.Properties.Resources.resources
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\Mercearia.csproj.GenerateResource.Cache
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.exe
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.pdb
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\bin\Debug\frmPrincipal.exe.config
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.exe
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.pdb
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\bin\Debug\frmPrincipal.exe
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\bin\Debug\frmPrincipal.pdb
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\Mercearia.csprojResolveAssemblyReference.cache
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmEmitirNota.resources
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmFornecedor.resources
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmlogin.resources
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmOperador.resources
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.btnVenda.resources
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmMenuRelatorio.resources
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmProdutos.resources
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmRelatoriosTela.resources
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmTipoProduto.resources
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmVenda.resources
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.Properties.Resources.resources
+D:\Thiago\Documentos\Documentos faculdade\3°  Ano\Programação Desktop\2° Bimestre\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\Mercearia.csproj.GenerateResource.Cache

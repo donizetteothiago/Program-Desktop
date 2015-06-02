@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4141ce74-50b1-4bba-9eb3-91b54afe9cec" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1297/COperador.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="COperador.xsd" MetadataType="Schema" ID="4b13b9d8-0229-4455-9ac8-0a0b854621e2" SourceId="1" SourceUrl="http://localhost:1297/COperador.svc?xsd=xsd1" />
+    <MetadataFile FileName="COperador.disco" MetadataType="Disco" ID="2c7a7f64-0acb-49cd-a9f7-40cfacf89d9f" SourceId="1" SourceUrl="http://localhost:1297/COperador.svc?disco" />
+    <MetadataFile FileName="COperador.wsdl" MetadataType="Wsdl" ID="677429af-e3d5-438a-9963-17a2ea85d25a" SourceId="1" SourceUrl="http://localhost:1297/COperador.svc?wsdl" />
+    <MetadataFile FileName="COperador1.xsd" MetadataType="Schema" ID="b7f0b0bf-2d70-41d5-9562-694f60587585" SourceId="1" SourceUrl="http://localhost:1297/COperador.svc?xsd=xsd2" />
+    <MetadataFile FileName="COperador2.xsd" MetadataType="Schema" ID="10108a82-0eba-46d0-84d2-83fdbdcf41ca" SourceId="1" SourceUrl="http://localhost:1297/COperador.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,20 @@
+c:\users\humberyton\documents\visual studio 2012\Projects\frmPrincipal\frmPrincipal\bin\Debug\frmPrincipal.exe.config
+c:\users\humberyton\documents\visual studio 2012\Projects\frmPrincipal\frmPrincipal\bin\Debug\frmPrincipal.exe
+c:\users\humberyton\documents\visual studio 2012\Projects\frmPrincipal\frmPrincipal\bin\Debug\frmPrincipal.pdb
+c:\users\humberyton\documents\visual studio 2012\Projects\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.csprojResolveAssemblyReference.cache
+c:\users\humberyton\documents\visual studio 2012\Projects\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.btnVenda.resources
+c:\users\humberyton\documents\visual studio 2012\Projects\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmMenuRelatorio.resources
+c:\users\humberyton\documents\visual studio 2012\Projects\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.Properties.Resources.resources
+c:\users\humberyton\documents\visual studio 2012\Projects\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.csproj.GenerateResource.Cache
+c:\users\humberyton\documents\visual studio 2012\Projects\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.exe
+c:\users\humberyton\documents\visual studio 2012\Projects\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.pdb
+E:\Nova pasta\frmPrincipal\frmPrincipal\bin\Debug\frmPrincipal.exe.config
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.exe
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.pdb
+E:\Nova pasta\frmPrincipal\frmPrincipal\bin\Debug\frmPrincipal.exe
+E:\Nova pasta\frmPrincipal\frmPrincipal\bin\Debug\frmPrincipal.pdb
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.csprojResolveAssemblyReference.cache
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.btnVenda.resources
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.frmMenuRelatorio.resources
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.Properties.Resources.resources
+E:\Nova pasta\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.csproj.GenerateResource.Cache
